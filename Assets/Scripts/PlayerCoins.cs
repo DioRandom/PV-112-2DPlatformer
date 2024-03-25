@@ -8,7 +8,7 @@ public class PlayerCoins : MonoBehaviour
 
 	public int coin; 
 	public int bonus;
-	public Text carrotCountText;   
+	public Text coinText;   
 
 	private void Start()
 	{
@@ -29,7 +29,7 @@ public class PlayerCoins : MonoBehaviour
 
 	void UpdateCarrotUI()
 	{
-		carrotCountText.text = "x" + coin;
+		coinText.text = "x" + coin;
 	}
 
 	

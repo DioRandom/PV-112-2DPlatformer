@@ -2824,7 +2824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coin: 0
   bonus: 3
-  carrotCountText: {fileID: 874885495}
+  coinText: {fileID: 874885495}
 --- !u!4 &1893383478 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4948518347371263206, guid: 438f01d9777bdfe48b0e8eda4dd6217b, type: 3}
@@ -3559,11 +3559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2947780053359316932, guid: f03bdf0ab05cf3f498216ab76ef7d265, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.77
+      value: -7.45
       objectReference: {fileID: 0}
     - target: {fileID: 2947780053359316932, guid: f03bdf0ab05cf3f498216ab76ef7d265, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.23
+      value: 2.92
       objectReference: {fileID: 0}
     - target: {fileID: 2947780053359316932, guid: f03bdf0ab05cf3f498216ab76ef7d265, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3605,7 +3605,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 499237923207700926, guid: f03bdf0ab05cf3f498216ab76ef7d265, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -3624,6 +3625,10 @@ PrefabInstance:
     - target: {fileID: 6924900680084427587, guid: 7f83f6a050851a148831f9a9992c786a, type: 3}
       propertyPath: m_Name
       value: Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924900680084427587, guid: 7f83f6a050851a148831f9a9992c786a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8294810014800547557, guid: 7f83f6a050851a148831f9a9992c786a, type: 3}
       propertyPath: m_LocalPosition.x

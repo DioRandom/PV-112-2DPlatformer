@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3382090914217741992}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.163, y: -0.718, z: 0.08730424}
+  m_LocalPosition: {x: -0.163, y: -1.55, z: 0.08730424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45,10 +45,10 @@ GameObject:
   - component: {fileID: 3364296255980097905}
   - component: {fileID: 8309543878537372112}
   - component: {fileID: 1742007299690972485}
-  - component: {fileID: 499237923207700926}
+  - component: {fileID: 9043022644744940635}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,7 +224,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &499237923207700926
+--- !u!114 &9043022644744940635
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,5 +237,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: 0
-  bonus: 0
-  carrotCountText: {fileID: 0}
+  bonus: 3
+  coinText: {fileID: 0}

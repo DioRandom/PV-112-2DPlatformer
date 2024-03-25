@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour
 		{
 			PlayerCoins playerCoins = other.GetComponent<PlayerCoins>();
 			playerCoins.Chest();
+			GetComponent<Collider2D>().isTrigger = false;
 			Destroy(this);
 		}
 	}

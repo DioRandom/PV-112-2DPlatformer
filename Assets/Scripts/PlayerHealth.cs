@@ -44,7 +44,7 @@ public class PlayerHealth : MonoBehaviour
 	{
 		Time.timeScale = 0.1f;
 		loseText.text = "YOU LOSE";
-		yield return new WaitForSeconds(1);
+		yield return new WaitForSecondsRealtime(1);
 		Time.timeScale = 1;
 		SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
 	}
